@@ -255,7 +255,7 @@ summary(fitted)
 
 ```{r}
 # Chose predictions, using probability > 0.8484
-prediction<- ifelse(fitted>= 0.8484, 1, 0)
+prediction<- ifelse(fitted >= 0.8484, 1, 0)
 table(prediction)
 ```
 
