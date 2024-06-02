@@ -876,7 +876,7 @@ less than the 0.05 significance level.</p></li>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 ##  0.0000  0.7661  0.8484  0.7756  0.9213  0.9979</code></pre>
 <div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="co"># Chose predictions, using probability &gt; 0.8484</span></span>
-<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a>prediction<span class="ot">&lt;-</span> <span class="fu">ifelse</span>(fitted<span class="sc">&gt;=</span> <span class="fl">0.8484</span>, <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a>prediction<span class="ot">&lt;-</span> <span class="fu">ifelse</span>(fitted <span class="sc">&gt;=</span> <span class="fl">0.8484</span>, <span class="dv">1</span>, <span class="dv">0</span>)</span>
 <span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a><span class="fu">table</span>(prediction)</span></code></pre></div>
 <pre><code>## prediction
 ##   0   1 
